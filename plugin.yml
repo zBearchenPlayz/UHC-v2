@@ -1,0 +1,5 @@
+name: UHC
+version: 1.0
+author: PrinxIsLeqit
+main: uhc\UHC
+api: [3.0.0-ALPHA11]
