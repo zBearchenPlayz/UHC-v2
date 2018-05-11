@@ -1,6 +1,6 @@
 <?php
 
-namespace uhc\item;
+namespace uhc\Item;
 
 
 use pocketmine\entity\Effect;
