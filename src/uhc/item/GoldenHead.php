@@ -24,7 +24,7 @@ class GoldenHead extends GoldenApple
      */
     public function getAdditionalEffects() : array
     {
-        return [
+        return 
             Effect::getEffect(Effect::REGENERATION)->setAmplifier(1)->setDuration(20 * ($this->getDamage() == 1 ? 10 : 5)),
             Effect::getEffect(Effect::ABSORPTION)->setDuration(20 * 120)
 
